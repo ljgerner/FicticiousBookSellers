@@ -2,15 +2,21 @@
     margin: 0;
 }
 header {
-    background-color: rgba(34, 34, 34, 0.95);
-    Padding: 20px;
+    background-color: rgba(34, 34, 34, 0.9);
+    Padding: 20px 20px 0 20px;
     overflow: hidden;
+    position: fixed;
+    width:100%;
+    box-sizing: border-box;
+    border-bottom: 10px solid #0e9618;
 }
 header h1{
     margin: 0;
 }
 nav {
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 nav ul{
     margin: 0;
@@ -25,6 +31,11 @@ nav li {display: inline;
 nav a {
     color: white;
     text-decoration: none;
+}
+#hero {
+    display: inline-block;
+    margin-top: 150px;
+    /*width: 100%;*/
 }
 /* styles for validation helpers */
 .field-validation-error {
